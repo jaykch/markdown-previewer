@@ -4,7 +4,8 @@
 Setup
 =====
 
-Requirements: you need a recent version of node and Webpack installed (you can install it with `npm install -g webpack webpack-dev-server`.
+Requirements: you need a recent version of node and Webpack installed 
+You can install it with `npm install -g webpack webpack-dev-server`
 
     git clone https://github.com/jaykch/markdown-previewer.git
     npm install
