@@ -13,7 +13,6 @@ export default class ConvertedMarkdown extends React.Component {
         return (
             <div>
                 <textarea value={this.props.text} onChange={this.updateText.bind(this)} className="form-control" >
-
                 </textarea>
             </div>
         )

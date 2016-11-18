@@ -10,7 +10,7 @@ export default class Layout extends React.Component {
         super();
 
         this.state = {
-            text: 'Heading\n=======\n\nSub-heading\n-----------\n \n### Another deeper heading\n \nParagraphs are separated\nby a blank line.\n\nLeave 2 spaces at the end of a line to do a  \nline break\n\nText attributes *italic*, **bold**, \n`monospace`, ~~strikethrough~~ .\n\nShopping list:\n\n  * apples\n  * oranges\n  * pears\n\nNumbered list:\n\n  1. apples\n  2. oranges\n  3. pears\n\nThe rain---not the reign---in\nSpain.*'
+            text: 'Heading\n=======\n\nSub-heading\n-----------\n \n### Another deeper heading\n \nParagraphs are separated\nby a blank line.\n\nLeave 2 spaces at the end of a line to do a  \nline break\n\nText attributes *italic*, **bold**, \n`monospace`, ~~strikethrough~~ .\n\nShopping list:\n\n  * apples\n  * oranges\n  * pears\n\nNumbered list:\n\n  1. apples\n  2. oranges\n  3. pears\n'
         }
     }
 
@@ -34,6 +34,7 @@ export default class Layout extends React.Component {
                     </div>
                 </div>
                 <h1 class="text-center credits">Built By <a href="http://www.jaykch.com/" target="_blank">Jay Kumar</a></h1>
+                <div className="row text-center"><a href="https://github.com/jaykch/markdown-previewer" target="_blank">GitHub Link</a></div>
             </div>
         )
     }
