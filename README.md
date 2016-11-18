@@ -1,5 +1,6 @@
 # markdown-previewer
 
+A GitHub markdown previewer for read me files
 
 Setup
 =====
